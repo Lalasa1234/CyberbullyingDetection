@@ -70,8 +70,7 @@ ___
 
 ___
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/bf85e6f9-f25b-48ac-9fcf-54e928b93b01">
-
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bf85e6f9-f25b-48ac-9fcf-54e928b93b01">
 
 ___
 
