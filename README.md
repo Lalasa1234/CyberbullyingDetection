@@ -66,7 +66,7 @@ ___
   
 ### Result for epochs = 10
 
-<img width="536" alt="image" src="https://github.com/user-attachments/assets/9ce635a6-370e-431c-91d9-ed06084853b3">
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/9ce635a6-370e-431c-91d9-ed06084853b3">
 
 ___
 
