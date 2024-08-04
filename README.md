@@ -43,6 +43,8 @@ ___
 
 *- Remove the duplicates*
 
+*- Analyze the length of each sequence, this is going to be useful while padding or truncating during tokenization*
+
 *Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data*
 
 Defining the encoder/upsampling, bottleneck and decoder/downsampling block along with skip connections from encoder to its corresponding decoder
