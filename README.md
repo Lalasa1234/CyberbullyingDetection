@@ -28,7 +28,7 @@ ___
 
 **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-**Note**: It is important to have integer labels (not float) here else the BCEwithLogitsLoss would throw error during model training
+**Note**: It is important to have ==integer labels (not float)== here else the BCEwithLogitsLoss would throw error during model training
 
 
 **Data Processing using Regex and NLTK**
@@ -37,7 +37,7 @@ ___
   
 *- Remove all hastags (#), handles (@), hyperlinks (http), URLs (www.)*
   
-*- Remove all characters except numbers or alphabets (emoticons and unwanted characters)*
+*- Remove all characters except numbers or alphabets (emoticons, punctuations or multi-space blocks)*
   
 *- Identify commonly found words and append them to stopwords and lemmatize*
 
