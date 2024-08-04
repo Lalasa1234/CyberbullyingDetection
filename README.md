@@ -9,7 +9,7 @@ Cyberbullying is a serious issue, especially in the age of social media where in
 - **Reporting Mechanism**: Allow users to report incidents and take appropriate action.
 ___
 
-### Choice of Model Selection 
+### Which pre-trained model is chosen and why❓❔
 I have used **distilbert-base-uncased** transformers which is lighter and faster than BERT. 
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
 *- My dataset contains 1000 training and evaluation observations each, and I have limited GPU availability, hence distilbert is the most suitable one for this context.*
