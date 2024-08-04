@@ -26,12 +26,11 @@ ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
 
-**EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
+1. **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
 **Note**: It is important to have integer labels (not float) here else the BCEwithLogitsLoss would throw error during model training
 
-
-**Data Processing using Regex and NLTK**
+2. **Data Processing using Regex and NLTK**
 
 *- Convert to lower case (Not necessary for the bert uncased model)*
   
