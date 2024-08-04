@@ -28,15 +28,17 @@ ___
 
 *EDA and Feature Engineering to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-*Data Processing using Regex and NLTK*
+*Data Processing using Regex and NLTK, and Corpus Generation*
 
-- Convert to lower case
+*- Convert to lower case*
   
-- Remove all hastags (#), handles (@), hyperlinks (http)
+*- Remove all hastags (#), handles (@), hyperlinks (http)*
   
-- Remove all characters except numbers or alphabets (emoticons and unwanted characters)
+*- Remove all characters except numbers or alphabets (emoticons and unwanted characters)*
   
-- Remove stopwords and lemmatize
+*- Identify commonly found words and append them to stopwords and lemmatize*
+
+*- Remove the duplicates*
 
 *Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data*
 
