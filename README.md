@@ -13,7 +13,7 @@ ___
 
 **Distilbert-base-uncased is chosen over other transformers**
 
-*- For sentiment analysis, comprehension and bidirectional semantic understanding is important, hence not choosing GPT (which is appropriate for text generation*
+*- For sentiment analysis, bidirectional semantic comprehension is important, hence not choosing GPT (which is appropriate for text generation*
 
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
 
