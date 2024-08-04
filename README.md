@@ -69,6 +69,17 @@ ___
 
 <img width="526" alt="image" src="https://github.com/user-attachments/assets/b7a2caf6-b38b-440d-bfb9-048895419f4c">
 
+Epoch	Training Loss	Validation Loss	Accuracy	F1
+1	No log	0.347739	0.867000	0.901845
+2	No log	0.198645	0.937000	0.954578
+3	No log	0.113666	0.970000	0.977974
+4	No log	0.074253	0.978000	0.983776
+5	No log	0.031244	0.992000	0.994126
+6	No log	0.018076	0.994000	0.995595
+7	No log	0.006023	0.998000	0.998534
+8	0.159100	0.003826	0.998000	0.998536
+9	0.159100	0.001554	0.999000	0.999267
+
 ___
 
 **Deployment**
