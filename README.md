@@ -1,8 +1,8 @@
-# CyberbullyingDetection 🤬😠
+## CyberbullyingDetection 🤬😠
 ___
-Finetuning the Large Language Model to predict whether the tweet is toxic or not
+### Finetuning the Large Language Model to predict whether the tweet is toxic or not
 
-### Business Application in Social Media❔❓
+### Business Application in Social Media
 Cyberbullying is a serious issue, especially in the age of social media where interactions turn hurtful. Some of the application of cyberbullyting detection include:
 - **Real-time Monitoring**: Continuously scan social media posts or messages for signs of cyberbullying.
 - **Alerts and Notifications**: Notify users when potentially harmful content is detected.
