@@ -15,7 +15,7 @@ ___
 
 *- For sentiment analysis, bidirectional semantic comprehension is important, hence not choosing GPT (which is appropriate for text generation*
 
-*- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
+*- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT, but lighter and faster*
 
 *- As part of text cleaning, the text is going to be small capped, hence using the uncased model version as capping has not significance here*
 
