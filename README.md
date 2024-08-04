@@ -28,7 +28,7 @@ ___
 
 **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-**Note**: It is important to have ==integer labels (not float)== here else the BCEwithLogitsLoss would throw error during model training
+**Note**: It is important to have == integer labels (not float) == here else the BCEwithLogitsLoss would throw error during model training
 
 
 **Data Processing using Regex and NLTK**
