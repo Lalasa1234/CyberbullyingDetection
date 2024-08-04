@@ -33,7 +33,7 @@ ___
 
 **Data Processing using Regex and NLTK**
 
-*- Convert to lower case*
+*- Convert to lower case (Not necessary for the bert uncased model)*
   
 *- Remove all hastags (#), handles (@), hyperlinks (http), URLs (www.)*
   
