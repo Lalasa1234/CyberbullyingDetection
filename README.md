@@ -20,7 +20,14 @@ ___
 *- For sentiment analysis, comprehension and bidirectional semantic understanding is important, hence not choosing GPT*
 ___
 
-### Tweet Toxicity Prediction 💬
-The model is trained on the https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset Dataset to predict the toxicity of texts to pre-emptively prevent any occurrence of cyberbullying and harassment before they tend to occur. I have chose distilled version of BERT as to overcome challenges including understanding the context of text so as to detect sarcasm and cultural references, as it uses Masked Transformer Encoders and Attention Mechanism to understand the relationship between words and sentences, the context from a given sentence.
+### Coding Blocks 👩‍💻👩‍💻 💬
 
-### 
+*EDA and testing geometric, color-space, and miscellaneous transformations*
+
+Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data
+
+Defining the encoder/upsampling, bottleneck and decoder/downsampling block along with skip connections from encoder to its corresponding decoder
+
+Training and evaluating the Model for 50 epochs along with tqdm tracking of loss
+
+**Note:** Specials comments for common mistake handling and justification throughout the code
