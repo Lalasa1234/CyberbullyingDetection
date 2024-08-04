@@ -26,7 +26,7 @@ ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
 
-*EDA and testing geometric, color-space, and miscellaneous transformations*
+*EDA and Data Preprocessing to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
 Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data
 
