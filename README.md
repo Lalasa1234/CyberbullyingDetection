@@ -13,11 +13,15 @@ ___
 
 **Distilbert-base-uncased is chosen over other transformers**
 
+*- For sentiment analysis, comprehension and bidirectional semantic understanding is important, hence not choosing GPT*
+
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
 
-*- I have limited GPU availability and a small (~2000) datasets, hence distibert is the most appropriate one*
+*- As part of text cleaning, the text is lower capped, hence using the uncased version as capping has not significance here*
 
-*- For sentiment analysis, comprehension and bidirectional semantic understanding is important, hence not choosing GPT*
+*- I have limited GPU availability and a small (~2000) dataset, hence distibert is the most appropriate one*
+
+
 ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
