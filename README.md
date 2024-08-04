@@ -62,7 +62,6 @@ ___
 
 *- Initialize the training arguments, define functions for training and evaluation*
 
-**Note:** Specials comments for common mistake handling and justification throughout the code
 ___
   
 ### Result for epochs = 10
