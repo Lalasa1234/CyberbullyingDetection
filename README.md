@@ -26,9 +26,9 @@ ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
 
-*EDA and Feature Engineering to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
+**EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-*Data Processing using Regex and NLTK, and Corpus Generation*
+**Data Processing using Regex and NLTK, and Corpus Generation**
 
 *- Convert to lower case*
   
