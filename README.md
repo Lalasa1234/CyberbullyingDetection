@@ -11,7 +11,7 @@ ___
 
 ### Which pre-trained model is chosen and why❓❔
 
-**Distilbert-base-uncased is chosen over others**
+**Distilbert-base-uncased is chosen over other transformers**
 
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
 
