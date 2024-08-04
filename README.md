@@ -38,7 +38,7 @@ ___
   
 *- Remove all characters except numbers or alphabets (emoticons, punctuations or multi-space blocks)*
   
-*- Identify commonly found words and append them to stopwords and lemmatize*
+*- Identify commonly found irrelevant words and append them to stopwords and lemmatize*
 
 *- Remove the duplicates*
 
