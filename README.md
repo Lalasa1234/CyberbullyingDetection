@@ -13,13 +13,13 @@ ___
 
 **Distilbert-base-uncased is chosen over other transformers**
 
-*- For sentiment analysis, bidirectional semantic comprehension is important, hence not choosing GPT (which is appropriate for text generation*
+*- For sentiment analysis, bidirectional semantic comprehension is important, hence not choosing GPT (which is appropriate for text generation)*
 
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT, but lighter and faster*
 
 *- As part of text cleaning, the text is going to be small capped, hence using the uncased model version as capping has not significance here*
 
-*- I have limited GPU availability and a small (~2000) dataset, hence distibert is the most appropriate one*
+*- I have limited GPU availability and a small (~2000) corpus, hence distibert is the most appropriate one*
 
 
 ___
@@ -28,11 +28,13 @@ ___
 
 **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-**Data Processing using Regex and NLTK, and Corpus Generation**
+**Note**: It is important to have integer labels (not float) here else the BCEwithLogitsLoss would throw error during model training
+
+**Data Processing using Regex and NLTK**
 
 *- Convert to lower case*
   
-*- Remove all hastags (#), handles (@), hyperlinks (http)*
+*- Remove all hastags (#), handles (@), hyperlinks (http), URLs (www.)*
   
 *- Remove all characters except numbers or alphabets (emoticons and unwanted characters)*
   
