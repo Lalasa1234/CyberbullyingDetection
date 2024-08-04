@@ -1,4 +1,4 @@
-### CyberbullyingDetection 🤬😠
+### Detection of Cyberbullying 🤬😠
 ___
 
 ### Business Application in Social Media
