@@ -58,7 +58,7 @@ ___
 
 **Training**
 
-* -Leveraged the Trainer class for faster training enabled by accelerate*
+*- Leverage the Trainer class for faster training enabled by PyTorch accelerate*
 
 *- Initialize the training arguments, define functions for training and evaluation*
 
