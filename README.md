@@ -26,9 +26,19 @@ ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
 
-*EDA and Data Preprocessing to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
+*EDA and Feature Engineering to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data
+*Data Processing using Regex and NLTK*
+
+- Convert to lower case
+  
+- Remove all hastags (#), handles (@), hyperlinks (http)
+  
+- Remove all characters except numbers or alphabets (emoticons and unwanted characters)
+  
+- Remove stopwords and lemmatize
+
+*Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data*
 
 Defining the encoder/upsampling, bottleneck and decoder/downsampling block along with skip connections from encoder to its corresponding decoder
 
