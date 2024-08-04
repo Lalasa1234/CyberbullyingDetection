@@ -17,7 +17,7 @@ ___
 
 *- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT*
 
-*- As part of text cleaning, the text is lower capped, hence using the uncased version as capping has not significance here*
+*- As part of text cleaning, the text is going to be small capped, hence using the uncased model version as capping has not significance here*
 
 *- I have limited GPU availability and a small (~2000) dataset, hence distibert is the most appropriate one*
 
