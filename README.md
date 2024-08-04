@@ -26,11 +26,11 @@ ___
 
 ### Coding Blocks 👩‍💻👩‍💻 💬
 
-1. **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
+**EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
 **Note**: It is important to have integer labels (not float) here else the BCEwithLogitsLoss would throw error during model training
 
-2. **Data Processing using Regex and NLTK**
+**Data Processing using Regex and NLTK**
 
 *- Convert to lower case (Not necessary for the bert uncased model)*
   
@@ -44,7 +44,25 @@ ___
 
 *- Analyze the length of each sequence, this is going to be useful while padding or truncating during tokenization*
 
-*Defining the PyTorch Dataset and Dataloader functions along with specific transformations for image data and masked data*
+**Defining the Transformer Dataset**
+
+*- Convert the clean dataframe to a transformer dataset to leverage its fast computation and batch processing*
+  
+*- Use the autotokenizer associated with distilbert with the longest padding and truncation strategy*
+  
+*- Split into train and test dataset*
+  
+*- Define the distilbert model*
+
+**Leveraged the Trainer class for faster training enabled by accelerate**
+
+*- Initialize the training arguments, define functions for training and evaluation*
+  
+**Result for epochs = 2**
+
+*- Initialize the training arguments, define functions for training and evaluation*
+
+
 
 Defining the encoder/upsampling, bottleneck and decoder/downsampling block along with skip connections from encoder to its corresponding decoder
 
