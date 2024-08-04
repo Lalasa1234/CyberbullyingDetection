@@ -57,15 +57,24 @@ ___
 **Leveraged the Trainer class for faster training enabled by accelerate**
 
 *- Initialize the training arguments, define functions for training and evaluation*
-  
-**Result for epochs = 2**
-
-*- Initialize the training arguments, define functions for training and evaluation*
-
-
-
-Defining the encoder/upsampling, bottleneck and decoder/downsampling block along with skip connections from encoder to its corresponding decoder
-
-Training and evaluating the Model for 50 epochs along with tqdm tracking of loss
 
 **Note:** Specials comments for common mistake handling and justification throughout the code
+___
+  
+### Result for epochs = 2
+
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/b7a2caf6-b38b-440d-bfb9-048895419f4c">
+
+
+**Deployment**
+
+Model is pushed to HuggingFace at https://huggingface.co/LalasaMynalli/Training_Checkpoint/
+
+**Next Steps**
+
+- Increase the no. of epochs
+- Hyperparameter tuning
+- Deploy on AzureML
+
+
+
