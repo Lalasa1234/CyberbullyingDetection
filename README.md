@@ -1,6 +1,6 @@
 ## CyberbullyingDetection 🤬😠
+
 ___
-### Finetuning the Large Language Model to predict whether the tweet is toxic or not
 
 ### Business Application in Social Media
 Cyberbullying is a serious issue, especially in the age of social media where interactions turn hurtful. Some of the application of cyberbullyting detection include:
