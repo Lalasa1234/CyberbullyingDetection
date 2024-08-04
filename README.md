@@ -1,4 +1,4 @@
-### Detection of Cyberbullying 🤬😠
+### Detection of Cyberbullying (Finetuning of LLMs) 🤬😠
 ___
 
 ### Business Application in Social Media
