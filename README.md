@@ -83,7 +83,7 @@ Model is pushed to HuggingFace at https://huggingface.co/LalasaMynalli/Training_
 
 **Next Steps**
 
-- Deploy on AzureML
+- Create another version that uses the native PyTorch
 
 
 
