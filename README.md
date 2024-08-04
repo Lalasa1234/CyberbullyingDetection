@@ -54,8 +54,11 @@ ___
 *- Split into train and test dataset*
   
 *- Define the distilbert model*
+___
 
-**Leveraged the Trainer class for faster training enabled by accelerate**
+**Training**
+
+* -Leveraged the Trainer class for faster training enabled by accelerate*
 
 *- Initialize the training arguments, define functions for training and evaluation*
 
