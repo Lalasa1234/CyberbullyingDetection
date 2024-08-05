@@ -28,13 +28,13 @@ ___
 
 **EDA and Feature Engineering** *to remove unwanted columns, treat missing values and ensure the right datatypes of columns*
 
-**Note**: It is important to have integer target labels (not float) else BCEwithLogitsLoss throws error during model training
+**Note**: It is important to have integer target labels (not float); else BCEwithLogitsLoss throws an error during model training
 
 **Data Processing using Regex and NLTK**
 
-*- Convert to lower case (Not necessary for the bert uncased model)*
+*- Convert to lower case (Not necessary for the Bert uncased model)*
   
-*- Remove all hastags (#), handles (@), hyperlinks (http), URLs (www.)*
+*- Remove all hastags (#), handles (@), hyperlinks (http) and URLs (www.)*
   
 *- Remove all characters except numbers or alphabets (emoticons, punctuations or multi-space blocks)*
   
@@ -42,7 +42,7 @@ ___
 
 *- Remove the duplicates*
 
-*- Analyze the length of each sequence, this is going to be useful while padding or truncating during tokenization*
+*- Analyze the length of each sequence; this is going to be useful while padding or truncating during tokenization*
 ___
 
 **Defining the Transformer Dataset**
@@ -51,7 +51,7 @@ ___
   
 *- Use the autotokenizer associated with distilbert with the longest padding and truncation strategy*
   
-*- Split into train and test dataset*
+*- Split into train and test datasets*
   
 *- Define the distilbert model*
 ___
@@ -60,7 +60,7 @@ ___
 
 *- Leverage the Trainer class for faster training enabled by PyTorch accelerate*
 
-*- Initialize the training arguments, define functions for training and evaluation*
+*- Initialize the training arguments and define functions for training and evaluation*
 
 ___
   
