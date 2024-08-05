@@ -11,15 +11,15 @@ ___
 
 ### Which pre-trained model is chosen and why❓❔
 
-**Distilbert-base-uncased is chosen over other transformers**
+**Distilbert-base-uncased is chosen over other transformers.**
 
 *- For sentiment analysis, bidirectional semantic comprehension is important, hence not choosing GPT (which is appropriate for text generation)*
 
-*- It has the same capability of distillation loss calculation and Masked Language Modeling(MLM) like that of BERT, but lighter and faster*
+*- It has the same capability of distillation loss calculation and Masked Language Modeling (MLM) like that of BERT, but lighter and faster*
 
-*- As part of text cleaning, the text is going to be small capped, hence using the uncased model version as capping is not significance here*
+*- As part of text cleaning, the text is going to be small capped; hence, using the uncased model version as capping is not significant here*
 
-*- I have limited/irregular GPU availability and a small (~2000) corpus, hence distibert is the most appropriate one*
+*- I have limited/irregular GPU availability and a small (~2000) corpus; hence, Distibert is the most appropriate one*
 
 
 ___
