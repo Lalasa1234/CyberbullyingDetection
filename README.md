@@ -45,7 +45,7 @@ ___
 *- Analyze the length of each sequence; this is going to be useful while padding or truncating during tokenization*
 ___
 
-**Defining the Transformer Dataset**
+**Defining the Transformer Dataset and Training**
 
 *- Convert the clean dataframe to a transformer dataset to leverage its fast computation and batch processing*
   
@@ -54,16 +54,10 @@ ___
 *- Split into train and test datasets*
   
 *- Define the distilbert model*
+
+*- Leverage the Trainer class for faster training, initialize its arguments and define functions for evaluation*
 ___
 
-**Training**
-
-*- Leverage the Trainer class for faster training enabled by PyTorch accelerate*
-
-*- Initialize the training arguments and define functions for training and evaluation*
-
-___
-  
 ### Result for epochs = 10
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/9ce635a6-370e-431c-91d9-ed06084853b3">
