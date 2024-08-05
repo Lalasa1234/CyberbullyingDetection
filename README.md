@@ -2,7 +2,7 @@
 ___
 
 ### Business Application in Social Media
-Cyberbullying is a serious issue, especially in the age of social media where interactions turn hurtful. Some applications of cyberbullyting detection include:
+Cyberbullying is a serious issue, especially in the age of social media where interactions turn hurtful. Some applications of cyberbullyting detection that this code can solve:
 
 - **Real-time Monitoring**: Continuously scan social media posts or messages for signs of cyberbullying.
 - **Alerts and Notifications**: Notify users when potentially harmful content is detected.
