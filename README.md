@@ -74,7 +74,6 @@ Model is pushed to HuggingFace at https://huggingface.co/LalasaMynalli/Training_
 
 **Next Steps**
 
-- Create another version that uses the native PyTorch
 - Hyperparameter tuning
 
 
