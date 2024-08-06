@@ -70,7 +70,7 @@ ___
 
 **Deployment**
 
-Model is pushed to HuggingFace at https://huggingface.co/LalasaMynalli/Training_Checkpoint/
+[https://huggingface.co/LalasaMynalli/LalasaMynalli_First_LLM/resolve/main/README.md](https://huggingface.co/LalasaMynalli/LalasaMynalli_First_LLM/)
 
 **Next Steps**
 
